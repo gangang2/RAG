@@ -1,4 +1,4 @@
-安装环境
+![a3ae94d9c15ae826d9fa44d8ef024b5](https://github.com/user-attachments/assets/9ef5dd0e-5063-45f2-b0c9-b676dc32ad7f)安装环境
 pip install uvicorn fastapi fastapi[all] nemoguardrails pymilvus uvicorn python-dotenv llama-index-vector-stores-milvus llama-index llama-index-postprocessor-cohere-rerank llama-index-embeddings-openai llama-index-embeddings-huggingface llama-index-llms-openai
 
 这是一个简易的rag系统
@@ -16,3 +16,6 @@ pip install uvicorn fastapi fastapi[all] nemoguardrails pymilvus uvicorn python-
 使用cohere来对检索结果进行ReRank重排获取前N个最优文档实现RAG检索增强
 
 使用next.js构建React应用程序
+
+
+![a3ae94d9c15ae826d9fa44d8ef024b5](https://github.com/user-attachments/assets/28d61459-4ece-4c24-bc46-765b86d775d7)
