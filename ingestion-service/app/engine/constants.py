@@ -1,0 +1,4 @@
+STORAGE_DIR = "storage"
+DATA_DIR = "data"
+CHUNK_SIZE = 1024
+CHUNK_OVERLAP = 20

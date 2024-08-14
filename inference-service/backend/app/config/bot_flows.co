@@ -1,0 +1,22 @@
+define flow self check input
+  $allowed = execute self_check_input
+  if not $allowed
+    bot refuse to respond1
+    stop
+
+define flow self check output
+  $allowed = execute self_check_output
+
+  if not $allowed
+    bot refuse to respond2
+    stop
+
+define flow user query
+  $answer = execute user_query
+  bot $answer
+
+define bot refuse to respond1
+  "对不起，您的提问似乎不符合规范，请您换个方式提问吧~"
+
+define bot refuse to respond2
+  "对不起，对于这个问题智能助手的答案可能不太好，请您换个方式提问吧~"
